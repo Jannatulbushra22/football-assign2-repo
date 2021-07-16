@@ -6,6 +6,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* Header part  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -28,7 +30,7 @@ nav a{
     font-weight: 400;
 }
 
-/* Header  */
+/* Top part  */
 h1{
     font-size: 55px;
     color: white;
@@ -57,4 +59,27 @@ h1{
 .top-part:hover .top-photo{
     transform: scale(1.3) rotate(360deg);
     transition: transform 2s ease-in-out;
+}
+
+/* Players style  */
+.players .player {
+    width: 330px;
+    height: 447px;
+}
+.players .player img{
+    width: 80%;
+    height: 50%;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    width: 40%;
+    margin: 20%;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
 }
