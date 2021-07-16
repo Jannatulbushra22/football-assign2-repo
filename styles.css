@@ -179,8 +179,8 @@ hr{
 }
 
 .footer-item img {
-    height: 100px;
-    width: 400px;
+    height: 90px;
+    width: 300px;
 }
 
 .footer-item li {
@@ -231,8 +231,9 @@ hr{
         grid-template-columns: repeat(1,1fr);
     }
     .top-blogs{
-        width: 100%;
-        padding-right: 80px;
+        width: 0%;
+        height: 50%;
+        
     }
     .blogs{
         grid-template-columns: repeat(1,1fr);
