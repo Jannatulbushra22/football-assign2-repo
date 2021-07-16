@@ -1,0 +1,32 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D25A0;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(purple, rgb(253, 138, 253));
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+}
